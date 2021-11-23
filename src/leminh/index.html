@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/base.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Profile</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="nav hide-on-moblie">
+      <div class="container">
+        <div class="navbar-custom hide-on-moblie">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="nav-item nav-link text-white"
+                  index="1"
+                  href="#introduce"
+                >
+                  <span class="nav-label text-orange">Introduce</span>
+                </a>
+                <a class="nav-item nav-link text-white" index="2" href="#about"
+                  ><span class="nav-label">About us</span></a
+                >
+                <a
+                  class="nav-item nav-link text-white"
+                  index="3"
+                  href="#project"
+                >
+                  <span class="nav-label">Project</span>
+                </a>
+                <a
+                  class="nav-item nav-link text-white"
+                  index="4"
+                  href="#contact"
+                >
+                  <span class="nav-label">Contacts</span>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- <iframe allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio controls autoplay="true"
+        src="./music/SongChoHetDoiThanhXuan31-BanCoTaiMa-6895737.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio> -->
+        <!-- <iframe
+          src="https://www.nhaccuatui.com/bai-hat/song-cho-het-doi-thanh-xuan-3-ban-co-tai-ma.s5hdIWuJHBAW.html"
+          type="audio/mp3"
+          allow="autoplay"
+          id="audio"
+          style="display: none"
+        ></iframe> -->
+      </div>
+    </div>
+
+    <!-- Introduce -->
+    <div class="intro" id="introduce">
+      <div class="container">
+        <div class="row">
+          <div
+            class="
+              intro-text
+              col-lg-6 col-md-6 col-ms-12 col-xs-12
+              hide-on-moblie
+            "
+          >
+            <label class="intro-text-label">Hello!</label>
+            <h1 class="intro-text-name">I<span>'</span>m Lee Minh</h1>
+            <h3 class="intro-text-cv">Frontend Development</h3>
+            <p class="intro-text-slogan">
+              When You Think It's Too late, The Truth Is, It's Still Early.
+            </p>
+            <a class="intro-btn animate_animated" href="#about">Read Me</a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <div
+              class="img"
+              style="background-image: url(./img/avatar.jpg)"
+            ></div>
+          </div>
+          <div
+            class="
+              intro-text
+              col-lg-6 col-md-6 col-ms-12 col-xs-12
+              hide-on-table hide-on-desktop
+              display-on-mobile
+            "
+          >
+            <label class="intro-text-label">Hello!</label>
+            <h1 class="intro-text-name">I<span>'</span>m Lee Minh</h1>
+            <h3 class="intro-text-cv">Frontend Development</h3>
+            <p class="intro-text-slogan">
+              When You Think It's Too late, The Truth Is, It's Still Early.
+            </p>
+            <a class="intro-btn animate_animated" href="#about">Read Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About me -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-ms-12 col-xs-12">
+            <div class="background">
+              <div
+                class="about-img"
+                style="background-image: url(./img/avatar.jpg)"
+              ></div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-ms-12 col-xs-12">
+            <div class="background">
+              <ul class="about-list">
+                <li class="about-item">
+                  <h3 class="about-text">
+                    Full name: <span>Le Van Minh</span>
+                  </h3>
+                </li>
+                <li class="about-item">
+                  <h3 class="about-text">
+                    Address:
+                    <span>Thuan Thanh District, Bac Ninh Province</span>
+                  </h3>
+                </li>
+                <li class="about-item">
+                  <h3 class="about-text">
+                    Education:
+                    <span
+                      >Posts and Telecommunications Institute of
+                      Technology</span
+                    >
+                  </h3>
+                </li>
+                <li class="about-item">
+                  <h3 class="about-text">Class: <span>D19CQVT01</span></h3>
+                </li>
+                <li class="about-item">
+                  <h3 class="about-text">
+                    Student Code: <span>B19DCVT249</span>
+                  </h3>
+                </li>
+                <li class="about-item">
+                  <h3 class="about-text">
+                    Email: <span>minhugvlog@gmail.com</span>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project -->
+    <div class="project" id="project">
+      <div class="container">
+        <div class="background">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+              <div class="pro-item">
+                <a href="https://leminh2503.github.io/shoppeFake/">
+                  <img
+                    src="./img/shopee.png"
+                    href="https://leminh2503.github.io/shoppeFake/"
+                    alt="Shopee"
+                    class="pro-img"
+                  />
+                </a>
+                <h3 class="pro-text">Template by Fullstack.edu.vn</h3>
+                <a
+                  href="https://leminh2503.github.io/shoppeFake/"
+                  class="pro-btn"
+                  >View</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+              <div class="pro-item">
+                <a href="https://leminh2503.github.io/eposi/">
+                  <img src="./img/eposi.jfif" alt="Eposi" class="pro-img eposi-img" />
+                </a>
+                <h3 class="pro-text">Template by Themeforest.net</h3>
+                <a href="https://leminh2503.github.io/eposi/" class="pro-btn"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 form-message">
+            <div>
+              <h2 class="form-label">Send me a message</h2>
+              <input type="text" name="name" id="" placeholder="Name" />
+              <input type="text" name="email" id="" placeholder="Email" />
+              <input type="text" name="subject" id="" placeholder="Subject" />
+              <input
+                type="text"
+                name="message"
+                cols="30"
+                rows="3"
+                placeholder="Message"
+              />
+            </div>
+            <div>
+              <a href="#" class="btn">Send Message</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 form-follow">
+            <h2 class="form-label">Follow me</h2>
+            <a href="">
+              <i class="fas fa-phone-alt"></i><span>+84987654321</span>
+            </a>
+            <a href="https://www.facebook.com/Wellcome.To.Wall.LVM01">
+              <i class="fab fa-facebook-square"></i> <span>Lê Minh</span>
+            </a>
+            <a href="https://www.instagram.com/lee.minhh253/">
+              <i class="fab fa-instagram-square"></i> <span>lee.minhh253</span>
+            </a>
+            <a href="https://github.com/leminh2503">
+              <i class="fab fa-github-square"></i> <span>leminh2503</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Foot -->
+    <div class="foot">
+      <h5 class="foot-text">Copyright © Lee Minh. All Right Reserved.</h5>
+    </div>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load("particles-js", "particles.json", function () {
+        console.log("particles.json loaded...");
+      });
+    </script>
+    <script type="text/javascript" src="./assets/particles.js"></script>
+    <script type="text/javascript" src="./assets/app.js"></script>
+    <script type="text/javascript" src="./assets/javascript.js"></script>
+  </body>
+</html>

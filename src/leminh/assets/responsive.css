@@ -1,0 +1,119 @@
+/* Tablet and Desktop */
+@meidia ( min-width: 740px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+  .img {
+    padding-top: 70%;
+    border-radius: 50%;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    border: 1px solid var(--orange-color);
+  }
+  .form-label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 0 30px;
+    color: var(--text-color);
+    text-shadow: 1px 1px 1px #5bf3f8;
+  }
+  .form-follow a {
+    padding: 25px 40px;
+    font-size: 1.6rem;
+  }
+}
+
+/* Table */
+@media (max-width: 1023px) and (min-width: 740px) {
+  .hide-on-tablet {
+    display: none;
+  }
+  .form-message {
+    height: 100%;
+  }
+  .form-message input {
+    width: 76%;
+    margin: 20px 30px;
+    border: none;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-bottom: 1px solid var(--text-color);
+    color: var(--text-color);
+    padding: 6px 6px;
+    outline: none;
+    line-height: 1.4rem;
+  }
+  .form-message a {
+    display: inline-block;
+    background-color: var(--text-color);
+    margin: 30px 0 0 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: 1px solid var(--orange-color);
+    color: #4d4b4b;
+    bottom: 1%;
+  }
+  .form-follow {
+    height: 100%;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .display-on-mobile{
+    display: block !important;
+  }
+  .hide-on-moblie {
+    display: none;
+  }
+  .intro-text {
+    padding: 70px 24px;
+  }
+  .background {
+    height: 100%;
+  }
+  .about{
+    height: 100%;
+  }
+  .about-list {
+    display: block;
+    margin: 20px 0;
+  }
+  .project {
+    height: 100%;
+    display: block;
+    margin: 50px 0;
+  }
+  .pro-item {
+    margin: 50px 0;
+  }
+  .form-message {
+    min-height: 100%;
+  }
+  .form-message a {
+    bottom: 10%;
+  }
+  .form-follow {
+    height: 100%;
+  }
+  .form-follow a i {
+    font-size: 2.4rem;
+  }
+  .form-follow a span{
+    left: 30%;
+    font-size: 1.4rem;
+  }
+  .contact {
+    height: 100%;
+  }
+  .foot {
+    margin-top: 36px;
+    min-height: 26px;
+    background-color: rgb(162 162 162);
+  }
+}
