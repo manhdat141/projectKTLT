@@ -1,6 +1,10 @@
 # projectKTLT
 
 Anh em clone project về bằng câu lệnh "git clone https://github.com/leminh2503/projectKTLT.git"
+
+
+
+
 Xong đó tự code file của mình của mình 
 Lệnh git status để kiểm tra trạng thái code
 Dùng "git add ." để add code lên sever trung gian
