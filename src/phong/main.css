@@ -63,3 +63,7 @@ transition: 0.3s;
     color: #ffff;
     margin: 0 30px 12px;
 }
+
+.div{
+    width: 100%;
+}
